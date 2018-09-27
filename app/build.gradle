@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.jmcnsoft.tools.alipay.demo"
+        applicationId "com.cxyzy.tools.alipay.demo"
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
@@ -35,7 +35,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.debug
         }
-
     }
 }
 
